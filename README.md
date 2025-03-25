@@ -16,7 +16,8 @@ Thus, LangChain and LlamaIndex both together is a good option to build RAG appli
 **System Design Flow:**
 
   **1. Data Loading**
-  For HelpMate AI project, we downloaded the insurance documents from the module 'RAG Demonstration'. The download files are sourced from https://www.google.com/url?  q=https%3A%2F%2Fcdn.upgrad.com%2Fuploads%2Fproduction%2F8e278245-506c-4c8c-9246-892280692919%2FPolicy%2BDocuments.zip
+  For HelpMate AI project, we downloaded the insurance documents from the module 'RAG Demonstration'. The download files are sourced from below link:
+  https://cdn.upgrad.com/uploads/production/8e278245-506c-4c8c-9246-892280692919/Policy+Documents.zip.
   We have used pdfplumber library to load pdfs as downloaded documenst are pdf documents. pdfplumber tool helps to extract not only text but also parse tables content, images etc for efficient text similarity     
   search and retrieval.
 
