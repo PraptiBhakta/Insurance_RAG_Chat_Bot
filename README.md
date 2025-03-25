@@ -75,4 +75,12 @@ Thus, LangChain and LlamaIndex both together is a good option to build RAG appli
 16. Top 3 documents having highest normalised score along with user query is added in prompt engineering for LLM to generate human understandable response of user query.
 17.As part of testing pipeline, feedback is taken form user after each response provided by LLM and accuracy score is calculated as (Correct Retrievals) / Total Queries × 100.
 
+**Below are some screenshots of Response provided by RAG model for user queries :-**
 
+Screenshot1 :
+
+![image](https://github.com/user-attachments/assets/1e86bee1-41d9-423d-bc38-4a409538f065)
+
+Screenshot2:
+
+![image](https://github.com/user-attachments/assets/7a75b30c-7873-4054-81a8-63373f7e8ac8)
